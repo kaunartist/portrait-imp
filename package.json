@@ -1,0 +1,13 @@
+{
+  "name": "portrait_imp",
+  "version": "0.0.1",
+  "description": "A library to draw animated avatars with export to Slack emoji",
+  "author": "Jesse Kaunisviita",
+  "main": "portraitimp.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
