@@ -1304,11 +1304,6 @@ os-locale@^1.4.0:
   dependencies:
     lcid "^1.0.0"
 
-paper@^0.12.7:
-  version "0.12.7"
-  resolved "https://registry.yarnpkg.com/paper/-/paper-0.12.7.tgz#d971ffc24164558ed6e913bef4110cfa17f6cba1"
-  integrity sha512-vaSTibdFAp4aVfCXmetxnPYkoGPMDQA1JPFKPCL76RnNOCoTm36nTj4SsfjBMfVeUFr94sbMGnPEBKjQnHzd3w==
-
 parse-json@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz#f480f40434ef80741f8469099f8dea18f55a4dc9"
@@ -1906,11 +1901,6 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
-
-two.js@^0.7.0-stable.1:
-  version "0.7.0-stable.1"
-  resolved "https://registry.yarnpkg.com/two.js/-/two.js-0.7.0-stable.1.tgz#4999070a566c3ab1b2ba980134d0d786b46ce2db"
-  integrity sha512-4QULPtstGEyGbhMvVvCGxgm85Un6CMYqFYafw7hNan9LdqoYZqMnxsaj8pkfBT4zpRfqB98aZjGrWYoCBqKtXA==
 
 ua-parser-js@0.7.17:
   version "0.7.17"
