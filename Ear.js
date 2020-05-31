@@ -27,6 +27,7 @@ class Ear extends Part {
 		} else {
 			ear.translate(new paper.Point(40,24));
 		}
+    ear.scale(1.2,1.2);
 		return ear;
 	}
 }

@@ -6,15 +6,27 @@ class Beard extends Part {
 	}
 
 	draw() {
-		const nose = 	new paper.Path.Rectangle(
-			new paper.Rectangle(
-				new paper.Point(17,30),
-				new paper.Point(23,46)
-			),
-			new paper.Size(0.8,0.8)
-		);
-		nose.fillColor = "#FF9999";
-		return nose;
+		const beard = 	new paper.Path();
+    beard.add(0,0);
+    beard.curveTo(
+      new paper.Point(2,42),
+      new paper.Point(20,72)
+    );
+    beard.curveTo(
+      new paper.Point(38,42),
+      new paper.Point(40,0)
+    );
+    beard.curveTo(
+      new paper.Point(34,20),
+      new paper.Point(20,28)
+    );
+    beard.curveTo(
+      new paper.Point(6,20),
+      new paper.Point(0,0)
+    );
+		beard.fillColor = "#331100";
+    beard.translate(0,36);
+		return beard;
 	}
 }
 

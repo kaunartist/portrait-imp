@@ -5,6 +5,7 @@ import Ear from "./Ear.js";
 import Eye from "./Eye.js";
 import Nose from "./Nose.js";
 import Beard from "./Beard.js";
+import Moustache from "./Moustache.js";
 import faceTypes from "./FaceTypes.js";
 
 const partTypes = {
@@ -40,7 +41,7 @@ class Portrait {
 				this.parts.push(new Ear({ faceType: face, partType: partTypes.EAR, flip: false }));
 				this.parts.push(new Mouth({ faceType: face, partType: partTypes.MOUTH, flip: false }));
 				this.parts.push(new Nose({ faceType: face, partType: partTypes.NOSE, flip: false }));
-				//this.parts.push(new Moustache({ faceType: face, partType: partTypes.MOUSTACHE, flip: false }));
+				this.parts.push(new Moustache({ faceType: face, partType: partTypes.MOUSTACHE, flip: false }));
 				this.parts.push(new Beard({ faceType: face, partType: partTypes.BEARD, flip: false }));
 				break;
 			default:
@@ -52,7 +53,7 @@ class Portrait {
 		for (let i = 0; i < this.parts.length; i++) {
 			this.group.addChild(this.parts[i].draw());
 		}
-		this.group.translate(new paper.Point(100, 100));
+		this.group.translate(new paper.Point(100, 60));
 		this.group.scale(0.5);
 	}
 }

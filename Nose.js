@@ -8,12 +8,12 @@ class Nose extends Part {
 	draw() {
 		const nose = 	new paper.Path.Rectangle(
 			new paper.Rectangle(
-				new paper.Point(17,30),
-				new paper.Point(23,46)
+				new paper.Point(17,28),
+				new paper.Point(23,45)
 			),
-			new paper.Size(0.8,0.8)
+			new paper.Size(2,2)
 		);
-		nose.fillColor = "#FF9999";
+		nose.fillColor = "#FF8888";
 		return nose;
 	}
 }

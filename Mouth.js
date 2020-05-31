@@ -13,7 +13,7 @@ class Mouth extends Part {
 			),
 			new paper.Size(0.8,0.8)
 		);
-		mouth.fillColor = "#666666";
+		mouth.fillColor = "#333333";
 		return mouth;
 	}
 }
